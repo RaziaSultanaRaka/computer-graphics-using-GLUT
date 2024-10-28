@@ -55,7 +55,7 @@ int main(int argc, char** argv)
     glutInitWindowSize(640, 480);
     glutInitWindowPosition(100, 100);
 
-    glutCreateWindow("Bresenham's Line Drawing Algorithm [ID: 200018]");
+    glutCreateWindow("Bresenham's Line Drawing Algorithm");
     glutDisplayFunc(myDisplay);
 
     myInit();
